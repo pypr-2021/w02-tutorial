@@ -51,7 +51,7 @@ P = 1
 
 # Loop from j=2 to j=n
 for j in range(2, n+1):
-    # Add each term in succession
+    # Multiply each term in succession
     P *= j**3 + 5*j**2 - 3
 
 # Display the result
